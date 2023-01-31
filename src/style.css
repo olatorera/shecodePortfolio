@@ -1,0 +1,88 @@
+:root {
+  --main-color: #6c63ff;
+}
+
+.body-conatainer {
+  margin-top: 100px;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+h1 {
+  font-size: 96px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  margin-top: 45px;
+}
+
+.links a {
+  margin: 25px;
+  border-radius: 4px;
+  padding: 20px 20px;
+  text-decoration: none;
+}
+
+.contact-link {
+  color: white;
+  background-color: var(--main-color);
+  box-shadow: 0 5px 10px rgba (0, 0, 0, 0.5);
+}
+
+.about-link {
+  background-color: white;
+  color: var(--main-color);
+  border: 1px solid var(--main-color);
+}
+
+.homepage-link {
+  color: var(--main-color);
+  text-align: center;
+  display: block;
+}
+
+p {
+  font-size: 18px;
+  border-radius: 4px;
+}
+
+.about-para {
+  display: flex;
+  margin: 30px 0;
+}
+
+.about-para p {
+  margin: 10px;
+}
+
+.email-link {
+  text-align: center;
+  display: block;
+  color: var(--main-color);
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 600px) {
+  .yoga-style {
+    display: block;
+  }
+}
